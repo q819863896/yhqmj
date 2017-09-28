@@ -20,17 +20,59 @@ html,
 
 header{
     width: 100%;
-    height: .8rem;
+    height: .5rem;
     ul{
         width: 100%;
         display: -webkit-flex;
-        line-height: .8rem;
+        line-height: .5rem;
         li{
             width: 33.3%;
             text-align: center;
         }
         .on{
             border-bottom: 2px solid #0ff;
+        }
+    }
+}
+
+section{
+    width: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+    .one,.two,.three,.four{
+        width: 100%;
+        .up{
+            width: 95%;
+            height: 80px;
+            line-height: 80px;
+            margin: 2% 2.5% 0 2.5%;
+            display: -webkit-flex;
+            justify-content: space-between;
+            font-size: .8rem;
+            background: lightcoral;
+            color: #fff;
+        }
+        .down{
+            width: 95%;
+            height: 80px;
+            line-height: 40px;
+            font-size: .3rem;
+            margin: 2% 2.5% 0 2.5%;
+        }
+    }
+    .two{
+        .up{
+            background: #0ff;
+        }
+    }
+    .three{
+        .up{
+            background: purple;
+        }
+    }
+    .four{
+        .up{
+            background: greenyellow;
         }
     }
 }
